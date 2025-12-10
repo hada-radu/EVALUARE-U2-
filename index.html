@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Hada Radu Vasile</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+    <div id="date-contact">
+        <h2>🧑 Nume, Prenume si Date de Contact</h2>
+        <p><strong>Nume si Prenume:</strong> Hada Radu Vasile</p>
+        <p><strong>E-mail:</strong> <a href="mailto:Hada.Io.Radu@student.utcluj.ro" target="_blank">Hada.Io.Radu@student.utcluj.ro</a></p>
+    </div>
+
+    <hr>
+
+    <div id="componente-caracteristici">
+        <h2>🛠️ Componente si Caracteristici Sistem</h2>
+        <table>
+            <tr>
+                <th>Denumire</th>
+                <th>Producator</th>
+                <th>Parametrii</th>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td>AMD</td>
+                <td>Ryzen 7 7735HS</td>
+            </tr>
+            <tr>
+                <td>Memorie RAM</td>
+                <td>Original Asus</td>
+                <td>16gb DDR4</td>
+            </tr>
+            <tr>
+                <td>Placa Video</td>
+                <td>NVIDIA</td>
+                <td>RTX 4050</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div id="structura-retea">
+        <h2> Structura Retelei</h2>
+        <img src="images/imagine_retea.png" alt="Diagrama Rețelei" class="retea-img">
+	</div>
+
+    <hr>
+
+    <div id="caracteristici-conexiune">
+        <h2> Caracteristici Conexiune Retea</h2>
+        <ol type="I">
+            <li><strong>Adresa MAC:</strong>XX-XX-XX-XX-XX-XX</li>
+			<li><strong>Adresa IP:</strong>192.168.0.XXX</li>
+            <li><strong>Viteza Download:</strong>1000 Mbps</li>
+            <li><strong>Viteza Upload:</strong>700 Mbps</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div id="monitorizare-resurse">
+        <h2> Monitorizare Resurse</h2>
+
+		<div style="text-align:center; margin-top: 10px;">
+        	<button id="toggle-slideshow" onclick="toggleSlideshow()">START Slideshow</button>
+    	</div>
+
+        <div id="slideshow-container">
+            <img src="images/process.png" alt="Consum CPU" class="resource-img">
+            <img src="images/porturi.png" alt="Consum Memorie" class="resource-img" style="display: none;">
+            <img src="images/pic3.png" alt="Porturi deschise" class="resource-img" style="display: none;">
+        </div>
+    </div>
+</body>
+</html>
